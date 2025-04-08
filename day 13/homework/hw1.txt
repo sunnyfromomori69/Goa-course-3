@@ -1,0 +1,8 @@
+Let's start with the Required tag.
+When an User opens a brand new app, and They type their information into the Terminal, And let's say, they miss out on Writing the Email, tag, and without the required tag, they just enter the site without needed to write in the email, using the required tag, people HAVE  to write in the email.
+
+value is a tag, that is Pretty Important, without value, the information The user types in the Terminal won't be In it, it won't save in the terminal.
+
+The name tag is also very Important, it's Kinda like the label tag, but it gives the Input type a specific Name, for example:
+
+<input type="radio" name="gender" value="male." id="male."> 

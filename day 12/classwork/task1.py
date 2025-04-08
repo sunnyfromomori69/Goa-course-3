@@ -1,0 +1,6 @@
+print(2<10)
+print(10>2)
+print(20==20)
+print(15!=20)
+print(120>=110)
+print(670<=120)

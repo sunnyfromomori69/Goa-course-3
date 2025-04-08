@@ -1,0 +1,11 @@
+Let's start with "Nav" tag, which stands for navigation, using this tag, the user can navigate Trough Links, And other tags, And it's an Container tag, Like "Head" tag, Usually, the "Nav" tag, goes below the "Body" tag.
+
+Now, We have the "Form" Tag, Form Tag is, The questions, you get when you Open Up a random website, It, asks you your email, password, and etc, and those are forms, The form tag goes well with..."Input" Tag, Input is The Tag, when u Press something, it sends the thing u clicked, to the computer, which is an "Output", The questions, in form's, are actually made by Using the Input tag.
+
+"label" tag is actually, The tag you see in next to the Question, for example..."Username" is an label for the "Input" tag, it's Pretty, self-explanatory.
+
+Now, we have the Attributes, The "Type" Attribute, is a Tag that helps U find the Type of a tag, but here, it helps you Choose, what type of Input do you want.
+
+now, the "Id" Tag, It's used to Combine With The Other tags, as such as...the A, tag and the Label tag, It helps u locate the Tag.
+
+the "for" Tag, Is Used for, the label tag, with it, u can decide which label goes to Which, Input.

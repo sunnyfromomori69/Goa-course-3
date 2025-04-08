@@ -1,0 +1,3 @@
+Value option is used to send the specific information to the data base, and that's why its used in the option tag.
+
+using the select tag, we can make a drop-down menu! Drop-down menus have Diffrient Things to interact with, Like picking an option, Select tag, is an container tag! and since it's an container tag, we can put another tag in it, and that tag is, The option tag, the option tag, gives the user diffrient options to choose from.
