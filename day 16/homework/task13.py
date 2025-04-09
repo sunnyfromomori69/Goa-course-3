@@ -1,8 +1,12 @@
-pin = "1204"
-pin_entry = " "
 
-while pin != pin_entry:
-    attempts = 0
-    pin_entry= input("enter your pin: ")
-    attempts +=1
-print("Youre registered.")
+
+pin_code = "1234"
+entered_pin = ""
+
+count = 0
+
+while entered_pin != pin_code:
+    entered_pin = input("Enter pin code: ")
+    count += 1
+
+print(f"You're authorizied. You took {count} attempts")
