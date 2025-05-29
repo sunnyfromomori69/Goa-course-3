@@ -1,0 +1,20 @@
+header { color: blueviolet;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+}
+
+main { color: palevioletred;
+        text-align: center;
+        font-size: larger;
+}
+
+footer { color: rgb(156, 85, 109); 
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+body { color: rgb(218, 140, 166);
+       text-align: center;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       background-color: gold;
+}
