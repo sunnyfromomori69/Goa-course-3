@@ -1,5 +1,3 @@
-def repeat_str(repeat, string):
-    for char in range(1,12,5):
-        return repeat_str
-    
-repeat_str(12,"e")
+"https://www.codewars.com/kata/55685cd7ad70877c23000102/train/python"
+
+# turn Positive number into negative
