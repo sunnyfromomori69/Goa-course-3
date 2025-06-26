@@ -1,0 +1,29 @@
+#solo.hover{
+            color: aqua;
+            background-color: black;
+            text-decoration: none;
+}
+
+#wiki.hover{
+              color: brown;                                          /* hover makes it so when the user hovers their mouse onto the link it lights up that color */
+                                                                    /* active makes it so, when u click on it..but not fully click on it, lets say dragging the link, it shows that color. */
+                                                                    /*Link-visited is a tag that lets the user see which tags they've visited. */
+                                                        
+              background-color: lightcoral;
+              text-decoration: solid;
+}
+
+#we.hover {
+              color: coral;
+              background-color: chocolate;
+              text-decoration: dotted;
+}
+
+#we.link-visited{
+             color: darkkhaki
+}
+
+#list.active {
+    color: rgb(97, 166, 255);
+    background-color: blueviolet;
+}

@@ -1,0 +1,17 @@
+#py:hover {
+            color: aqua;
+}
+
+#css:hover{
+           color: green;
+}
+
+#html:hover{
+    color: blue;
+}
+
+.e:active{
+    color: brown;
+}
+
+/* Psuedo class is a class which changes the tags state, Well we dont change the state, but the users do...we just make it accessable for the user*/

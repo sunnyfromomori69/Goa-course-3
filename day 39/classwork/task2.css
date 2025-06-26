@@ -1,0 +1,20 @@
+table {                                        /* Border's Are devided by color, width and height, and Style */
+    border: 3px solid green 
+    
+}
+
+th {
+    border: 3px dotted blue
+}
+
+td{
+    border: 2px dashed red
+}
+
+td:nth-child(2){
+    border: 2px solid yellow
+}
+
+.table2{
+    border-collapse: collapse;
+}
