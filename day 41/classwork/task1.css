@@ -1,0 +1,11 @@
+ul {
+    list-style-type: square;
+    list-style-position: outside;
+    list-style-image:url(https://th.bing.com/th/id/OIP.FABCq_MK8V77WZwCYaVatgHaHa?w=169&h=180&c=7&r=0&o=7&pid=1.7&rm=3)
+}
+
+ol {
+    list-style: inside, circle, url(https://preview.redd.it/u8lal38f4prz.png?auto=webp&s=dee4bbbb74b2c1c47662becafbb2857a0197c59c);
+}
+
+/* 1) შექმენით ორი სია: 1 დალაგებული და მეორე დაულაგებელი. სიაში ჩამოწერეთ თქვენთის სურველი ელემენტები და გასტილეთ ორივე სია. პირველის შემთხვევაში გამოიყენეთ 3 ნასწავლი ქვე-კუთვნილება: list-style-position, list-style-type, list-style-img. ხოლო მეორეში გააერთიანეთ 3-ივე კუთვნილება list-style-ში. არ აურიოთ სემანტიკა */
