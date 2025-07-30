@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f5f9;
+  }
+
+  .container {
+    display: flex;
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .left {
+    flex: 1;
+    background: url('https://images.unsplash.com/photo-1586105251261-72a756497a12') no-repeat center;
+    background-size: cover;
+    filter: grayscale(100%);
+  }
+
+  .right {
+    flex: 1;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+    background-color: #4f46e5;
+    border-radius: 50%;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #1f2937;
+  }
+
+  input {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .forgot {
+    margin-bottom: 20px;
+    text-align: right;
+  }
+
+  .forgot a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #6366f1;
+  }
+
+  button {
+    padding: 12px;
+    border: none;
+    background-color: #4f46e5;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  button:hover {
+    background-color: #4338ca;
+  }
+
+  .signup {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .signup a {
+    color: #6366f1;
+    text-decoration: none;
+  }

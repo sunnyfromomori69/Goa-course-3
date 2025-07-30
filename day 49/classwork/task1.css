@@ -1,0 +1,8 @@
+div {
+    background-color: blue;
+    background-image: url(07.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top left;
+    background-attachment: fixed;
+}

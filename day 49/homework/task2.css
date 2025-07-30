@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  body {
+    background-color: #f3f4f6;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  }
+
+  .left {
+    flex: 1;
+    background: url('https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=870&q=80') no-repeat center center;
+    background-size: cover;
+    filter: grayscale(100%);
+  }
+
+  .right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    position: relative;
+  }
+
+  .form-box {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .logo {
+    width: 30px;
+    height: 30px;
+    background-color: #6366f1;
+    border-radius: 50%;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-bottom: 24px;
+    color: #1f2937;
+  }
+
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+
+  .forgot-password {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+
+  .forgot-password a {
+    text-decoration: none;
+    color: #6366f1;
+    font-size: 14px;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4f46e5;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  button:hover {
+    background-color: #4338ca;
+  }
+
+  .signup {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .signup a {
+    color: #6366f1;
+    text-decoration: none;
+  }
