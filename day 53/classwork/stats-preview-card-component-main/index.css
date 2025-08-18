@@ -1,0 +1,80 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: hsl(233, 47%, 7%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.card {
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 350px;
+}
+
+.card-image {
+  position: relative;
+}
+
+.card-image img {
+  width: 100%;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: hsl(277, 64%, 61%);
+  mix-blend-mode: multiply;
+  opacity: 0.75;
+}
+
+.card-content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.card-content h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.card-content h1 span {
+  color: hsl(277, 64%, 61%);
+}
+
+.card-content p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  font-size: 0.9375rem;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.stats h2 {
+  font-size: 1.5rem;
+}
+
+.stats p {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
