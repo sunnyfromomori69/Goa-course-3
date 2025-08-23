@@ -1,0 +1,10 @@
+
+
+ okay so, hover appplies styles when the user moves the mouse over an element. 
+
+ active Applies styles when the user clicks on an element (the moment it is being pressed). 
+
+ and focus Applies styles when an element gains focus, e.g., clicking an input field or tabbing to it using the keyboard. 
+
+
+

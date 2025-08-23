@@ -1,0 +1,7 @@
+alright so, let's start with translate it moves the element, using x and Y and yeah thats about it, + is  right and - is up
+
+then we have scale, and its in the name we change the scale of the element 
+
+and rotate, is rotating the element in a random direction
+
+skew, this one is a bit complicated and I dont understand it fully. Myself it doesnt rotate or changes the scale but it changes the element to look slightly tilted 

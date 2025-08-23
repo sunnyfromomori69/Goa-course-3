@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+
+  .image-row {
+    display: flex;
+    gap: 20px;
+  }
+
+  .image-row img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #333;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .image-row img:hover {
+    transform: scale(1.1) translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }

@@ -1,0 +1,22 @@
+transition-property
+
+Specifies which CSS property should be animated.
+
+transition-duration
+
+Sets how long the transition should take.
+
+Accepts seconds (s) or milliseconds (ms).
+
+transition-timing-function
+
+Defines the speed curve of the transition (how it accelerates or decelerates).
+
+Common values: linear, ease, ease-in, ease-out, ease-in-out.
+
+transition-delay
+
+Sets a delay before the transition starts.
+
+Accepts seconds (s) or milliseconds (ms).
+

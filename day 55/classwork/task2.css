@@ -1,0 +1,43 @@
+.parent {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(81, 122, 136);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+  }
+
+
+  .child {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(207, 160, 155);
+    border-radius: 0;
+  }
+
+  .parent .child {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    animation: spin-around 5s linear infinite;
+  }
+  
+ 
+  @keyframes spin-around {
+    0% {
+      transform: rotate(0deg) translateX(120px) rotate(0deg);
+    }
+    25% {
+      transform: rotate(90deg) translateX(120px) rotate(-90deg);
+    }
+    50% {
+      transform: rotate(180deg) translateX(120px) rotate(-180deg);
+    }
+    75% {
+      transform: rotate(270deg) translateX(120px) rotate(-270deg);
+    }
+    100% {
+      transform: rotate(360deg) translateX(120px) rotate(-360deg);
+    }
+  }
