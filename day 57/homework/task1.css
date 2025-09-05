@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #2e2e3d;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-template-rows: 80px 200px 150px 80px;
+    gap: 20px;
+    width: 900px;
+  }
+
+  .header {
+    grid-column: 1 / 4;
+    background: linear-gradient(135deg, #7b68ee, #9370db);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+
+  .sidebar {
+    grid-row: 2 / 4;
+    background: linear-gradient(135deg, #20c997, #3ec0f0);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+
+  .content-1 {
+    grid-column: 2 / 4;
+    background: linear-gradient(135deg, #6a5acd, #1e90ff);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+
+  .content-2 {
+    background: linear-gradient(135deg, #6a5acd, #1e90ff);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+
+  .content-3 {
+    background: linear-gradient(135deg, #6a5acd, #1e90ff);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+
+  .footer {
+    grid-column: 1 / 4;
+    background: linear-gradient(135deg, #7b68ee, #9370db);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 8px;
+  }

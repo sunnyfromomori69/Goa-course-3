@@ -1,0 +1,50 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  * {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    }
+    
+    
+    .review-header h3 {
+    font-size: 1rem;
+    }
+    
+    
+    .review-header span {
+    color: var(--soft-pink);
+    font-weight: 400;
+    }
+    
+    
+    @media (min-width: 768px) {
+    .top-section {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+    }
+    
+    
+    .ratings {
+    flex: 1;
+    }
+    
+    
+    .reviews {
+    flex-direction: row;
+    }
+    
+    
+    .review {
+    flex: 1;
+    }
+}

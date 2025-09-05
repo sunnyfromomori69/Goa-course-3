@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+  .container {
+    display: grid;
+    grid-template-areas: 
+      "header header header"
+      "aside1 main aside2"
+      "footer footer footer";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+    height: 100vh;
+  }
+
+  header {
+    grid-area: header;
+    background: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .aside1 {
+    grid-area: aside1;
+    background: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    grid-area: main;
+    background: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aside2 {
+    grid-area: aside2;
+    background: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    grid-area: footer;
+    background: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
