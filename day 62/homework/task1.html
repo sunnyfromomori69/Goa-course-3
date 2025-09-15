@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Button Example</title>
+</head>
+<body>
+
+  <button id="btn">Click me</button>
+  <p id="text">Hello</p>
+  <script>
+    document.getElementById("btn").onclick = function() {
+      document.getElementById("text").textContent = "You clicked the button";
+    };
+  </script>
+</body>
+</html>
