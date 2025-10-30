@@ -1,0 +1,11 @@
+const li1 = document.getElementById('li1');
+console.log('getElementById:', li1.textContent);
+const allLi = document.getElementsByTagName('li');
+console.log('getElementsByTagName:', allLi);
+const allItems = document.getElementsByClassName('item');
+console.log('getElementsByClassName:', allItems);
+console.log('previousElementSibling of li2:', document.getElementById('li2').previousElementSibling.textContent);
+console.log('nextElementSibling of li2:', document.getElementById('li2').nextElementSibling.textContent);
+console.log('firstChild of ul:', document.getElementById('myList').firstChild);
+console.log('lastChild of ul:', document.getElementById('myList').lastChild);
+console.log('childNodes of ul:', document.getElementById('myList').childNodes);
